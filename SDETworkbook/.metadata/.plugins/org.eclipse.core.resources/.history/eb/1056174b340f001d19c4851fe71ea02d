@@ -1,0 +1,61 @@
+package com.crm.Sdet.objectRepsitory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class ProductPage1{
+	
+	 //initialization
+		public ProductPage1(WebDriver driver) {
+			PageFactory.initElements(driver,this);
+			}
+		//Decleration
+		
+		@FindBy(xpath="//input[@name='productname']")
+		private WebElement productbtn;
+		
+		@FindBy(xpath="//input[@title='Save [Alt+S]']")
+		private WebElement plusBtn;
+		
+		@FindBy(xpath="//input[@name='productname']")
+		private WebElement productTextField;
+		 
+		@FindBy(xpath="//input[@title='Save [Alt+S]']")
+		private WebElement Savebutton;
+		
+		@FindBy(xpath="//input[@name='Delete']")
+		private WebElement deleteBtn;
+		
+		@FindBy(linkText="Sign Out")
+		private WebElement signOutbtn;
+		
+		//Business logic
+		/* used to find element
+		 * @param locator
+		 * @author surbhi
+		 */
+		public void product(String productName)
+		{
+			
+		productbtn.click();
+		 plusBtn.click();
+		 productTextField.sendKeys(productName);
+		 Savebutton.click();
+		 deleteBtn.click();
+		 signOutbtn.click();
+		}	
+		 
+} 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		
+
+

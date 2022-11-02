@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SDET39_SeleniumFramework"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="Practice1.facebookLogin"/>
+        <listEntry value="Practice1.loginActitime"/>
+        <listEntry value="practiceProgram.makeMyTrip"/>
+        <listEntry value="com.crm.Sdet.objectRepsitory.CampaignPage1"/>
+        <listEntry value="com.crm.Sdet.objectRepsitory.HomePage1"/>
+        <listEntry value="com.crm.Sdet.organization1.createOrganizationForproduct"/>
+        <listEntry value="Practice1.Sample"/>
+        <listEntry value="com.crm.Sdet.objectRepsitory.LogInPage1"/>
+        <listEntry value="Practice1.logintoVtiger"/>
+        <listEntry value="com.crm.Sdet.contact.CreateContact"/>
+        <listEntry value="Practice1.makeMyTrip"/>
+        <listEntry value="com.crm.Sdet.genericLib.JavaUtility"/>
+        <listEntry value="Practice1.ReadDataFromMySQL"/>
+        <listEntry value="practiceProgram.HTMLtable"/>
+        <listEntry value="com.crm.Sdet.organization.CreateOrganization"/>
+        <listEntry value="Practice1.excel"/>
+        <listEntry value="com.crm.Sdet.genericLib.propertyUtility"/>
+        <listEntry value="com.crm.Sdet.genericLib.ExcelUtility"/>
+        <listEntry value="Practice1.excelWrite"/>
+        <listEntry value="com.crm.Sdet.objectRepsitory.ProductPage1"/>
+        <listEntry value="com.crm.Sdet.genericLib.WebDriverUtility"/>
+        <listEntry value="com.crm.Sdet.organization2.createOrganizationForCampaign"/>
+        <listEntry value="Practice1.flipkartLogin"/>
+        <listEntry value="Practice1.MysqlInsert"/>
+        <listEntry value="com.crm.Sdet.objectRepsitory.productAndActionPage"/>
+        <listEntry value="com.crm.Sdet.objectRepsitory.OrganizationPage"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

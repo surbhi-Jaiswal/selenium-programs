@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\surbh\git\vtigerRepository\SDET39_SeleniumFramework\src\test\java\practiceProgram\withoutSendkeys.java"/>
+			<item value="C:\Users\surbh\git\repositoryDemoProject1\DemoProject1"/>
+			<item value="C:\Users\surbh\git\vtigerRepository\SDET39_SeleniumFramework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="SDET"/>
+			<item value="CRM"/>
+			<item value="FaceBook"/>
+			<item value="faceBook"/>
+			<item value="DemoProject0"/>
+			<item value="DemoProject3"/>
+			<item value="DemoProject2"/>
+			<item value="demoProject2"/>
+			<item value="DemoProject1"/>
+			<item value="Demo"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Restassured-SDET"/>
+			<item value="ZOHOCRM"/>
+			<item value="FaceBookProject"/>
+			<item value="FaceBook"/>
+			<item value="DemoProject0"/>
+			<item value="DemoProject3"/>
+			<item value="DemoProject2"/>
+			<item value="demoproject2"/>
+			<item value="DemoProject1"/>
+			<item value="DemoProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

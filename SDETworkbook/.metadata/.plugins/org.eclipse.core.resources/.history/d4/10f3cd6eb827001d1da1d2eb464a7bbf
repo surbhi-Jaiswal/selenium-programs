@@ -1,0 +1,31 @@
+package practiceProgram;
+
+import java.util.LinkedHashSet;
+
+public class duplicateNoByLinkedHasSet {
+
+	public static void main(String[] args) {
+		int[] a= {1,2,3,4,3,6,4};
+		LinkedHashSet<Integer> set=new LinkedHashSet<Integer>();
+		for(int i=0;i<a.length;i++) {
+		set.add(a[i]);
+	}
+		System.out.println(set);
+		for(Integer in:set)//1,2,3,4,6
+		{
+			int count=0;
+		  for(int i=0;i<a.length;i++) 
+		  {
+			  if (in==a.length)
+			  count++;
+		  }
+			
+		
+		if(count==1) {
+			System.out.println("in="+count);
+		}
+			
+		}
+
+}
+}

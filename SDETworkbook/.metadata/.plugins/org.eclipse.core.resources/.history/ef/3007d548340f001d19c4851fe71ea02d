@@ -1,0 +1,54 @@
+package com.crm.Sdet.objectRepsitory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LogInPage1 {
+
+	 //initialization
+	public LogInPage1(WebDriver driver) {
+		PageFactory.initElements(driver,this);
+		}
+	
+	//Decleration
+	@FindBy(name="user_name")
+	private WebElement UserNameTextField;
+	
+	@FindBy(name="user_password")
+	private WebElement UserPasswordTf;
+	
+	@FindBy(id="submitButton")
+	private WebElement loginbutton;
+	
+	//getter methods
+	public WebElement getUserNmaeTextField() {
+		return UserNameTextField;
+	}
+
+	public WebElement getUserPassword() {
+		return UserPasswordTf;
+	}
+
+	public WebElement getLoginbutton() {
+		return loginbutton;
+	}
+	
+	//business logics
+	/*
+	 * used for login app
+	 * @param userName
+	 * @param password
+	 * @author surbhi
+	 */
+	public void login(String userName,String password) {
+		 UserNameTextField.sendKeys(userName);
+		 UserNameTextField.sendKeys(password);
+		 loginbutton.click();
+		}
+	 
+	
+	
+
+}

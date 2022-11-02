@@ -1,0 +1,70 @@
+package practiceProgram;
+
+public class PatternProgramtoPrintSquare {
+
+	public static void main(String[] args) {
+//		int n=5;
+//		for(int i=1;i<=n;i++) //==>rows
+//		{//i=1 1<=5 true
+//			//
+//			for(int j=1;j<=n;j++)//==>columnsd
+//				//j=1 i<=5 true
+//				//j=2 2<=5 true
+//				//j=3 3<=5 true
+//				//j=4 4<=5 true
+//				//j=5 5<=5 true
+//				//j=6 5<=5 terminate
+//			{
+//				System.out.println("* ");//* * * * *
+//			}                            //* * * * *
+//			System.out.println();        //* * * * *
+//			}                                 //* * * * * 
+//	}                                      //* * * * * 
+//
+//}
+		
+		
+		
+		
+	//for print pattern for increasing pyramid	
+		int n=5;
+		for(int i=1;i<=n;i++) //==>rows
+		{//i=1 1<=5 true
+			//
+			for(int j=1;j<=i;j++)//==>columnsd
+				//j=1 1<=5 true
+				//j=2 2<=5 true
+				//j=3 3<=5 true
+				//j=4 4<=5 true
+				//j=5 5<=5 true
+				//j=6 5<=5 terminate
+			{
+				System.out.println("* ");//* 
+			}                            //* * 
+			System.out.println();        //* * * 
+			}                            //* * * *  
+	}                                    //* * * * * 
+
+}
+
+//for print pattern for decreasing pyramid	
+
+int n=5;
+for(int i=1;i<=n;i++) //==>rows
+{//i=1 1<=5 true
+	//
+	for(int j=i;j<=n;j++)//==>columnsd
+		//j=1 1<=5 true
+		//j=2 2<=5 true
+		//j=3 3<=5 true
+		//j=4 4<=5 true
+		//j=5 5<=5 true
+		//j=6 5<=5 terminate
+	{
+		System.out.println("* ");//* 
+	}                            //* * 
+	System.out.println();        //* * * 
+	}                            //* * * *  
+}                                    //* * * * * 
+
+}

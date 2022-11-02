@@ -1,0 +1,64 @@
+package com.crm.Sdet.objectRepsitory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class HomePage1 {
+	
+
+	//initialization
+	public HomePage1(WebDriver driver) {
+		PageFactory.initElements(driver,this);
+	}
+		
+		//Decleration
+		
+		@FindBy(linkText="Organizations")
+		private WebElement organizationButton;
+		
+		@FindBy(xpath="//img[@alt=\"Create Organization...\"]")
+		private WebElement plusButton;
+		
+		@FindBy(name="accountname")
+		private WebElement organizationName;
+		
+		@FindBy(name="button")
+		private WebElement saveButton;
+		
+		@FindBy(linkText="Sign Out")
+		private WebElement signOutbtn;
+
+		public WebElement getOrganizationButton() {
+			return organizationButton;
+		}
+
+		public WebElement getPlusButton() {
+			return plusButton;
+		}
+
+		public WebElement getOrganizationName() {
+			return organizationName;
+		}
+
+		public WebElement getSaveButton() {
+			return saveButton;
+		}
+
+		public WebElement getSignOutbtn() {
+			return signOutbtn;
+		}
+
+	/*
+	 * used for homePageapp
+	 * @param elements
+	 * @author surbhi
+	 */public void login(String orgname) {
+		 organizationButton.click();
+		 plusButton.click();
+		 organizationName.sendKeys(orgname);
+		 saveButton.click();
+		 signOutbtn.click();
+		 }
+	}
